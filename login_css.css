@@ -1,0 +1,65 @@
+.cont{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 70% 1fr;
+}
+.bg_cont{
+    display: grid;
+    background-image: url(image/loginbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.leaf{
+    
+    display: grid;
+    margin-top: 10%;
+    place-items: center;
+}
+.leaf_text1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apptivo_login{
+    display: grid;
+    margin-top: 30%;
+    place-items: center;
+}
+.sigin_text{
+    color: rgb(68, 67, 67);
+    font-size: 17px;
+    margin-top: 3%;
+    margin-bottom: 10px;
+
+}
+.submit_buttom{
+    margin-top: 10px;
+}
+.flex{
+    gap: 25px;
+    display: flex;
+    justify-items: center;
+}
+.flex_img{
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+   
+}
+.crt_acc{
+    display: block;
+    margin-top: 20px;
+    border-top: 0.5px solid rgb(145, 140, 140);
+    
+
+}
+
