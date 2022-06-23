@@ -1,5 +1,6 @@
 
    
+   
     <!doctype html>
     <html lang="en">
       <head>
@@ -51,13 +52,13 @@
                     <p class="sigin_text"> Sign in to your account </p>
                     <div class="container mt-3">    
                           <div class="form-label-group frm-fld-sec mb-3">
-                            <input type="email" class="form-control form-input" id="email" placeholder="Enter Email" name="email">
+                            <input type="email" class="form-control form-input" id="email" placeholder="Enter Email" name="email" required>
+                            <small  id="usr_ntfnd" style="color: red" ></small> 
                           </div>
-                          <p id="usr_ntfnd" style="color: red;"></p>
                           <div class="mb-3">
                             <input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="password">
+                            <small id="wrng_pass" style="color: red;"></small>
                           </div>
-                          <p id="wrng_pass" style="color: red;"></p>
                           <a href="#" style="color: rgb(19, 178, 226)"> Forget Password ?</a>
                           <div class="d-grid" style="margin-top: 10px">
                             <button type="submit" class="btn mb-3 btn-lg btn-primary log_in btn-block" onclick="myFunction()">Sign in</button>
@@ -88,4 +89,5 @@
            </div>
         </body>
     </html>
+    
     
