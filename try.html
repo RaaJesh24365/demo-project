@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Create a JSON string from a JavaScript array.</h2>
+<input type="text" id="pwd" placeholder="Enter name" onkeyup="fnnew()" required >
+<p id="demo" style="color:red"></p>
+
+<script>
+function fnnew(){
+let a=document.getElementById("pwd").value;
+const arr =  { "name": "sub", "family": "mirzaei" }
+arr.june=a.trim();
+if(arr.name==arr.june){
+document.getElementById("demo").innerHTML = "okay"}
+
+else if (arr.june.length<=0 || arr.june==" "){
+document.getElementById("demo").innerHTML = "enter something"}
+
+else {
+document.getElementById("demo").innerHTML = "not_okay"}
+}
+</script>
+
+</body>
+</html>
